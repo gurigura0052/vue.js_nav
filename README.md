@@ -1,9 +1,17 @@
 # vue.js_nav
+https://gurigura0052.github.io/vue.js_nav
 
-> A Vue.js project
+## vue-cliインストール
+```
+$ npm install --global vue-cli
+$ vue init webpack my-project
+$ cd my-project
+$ npm install
+$ npm run dev
+```
 
 ## Build Setup
-
+- ビルド前に **config/index.js** の **assetsPublicPath** を **'./'** に変更
 ``` bash
 # install dependencies
 npm install
